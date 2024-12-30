@@ -1,0 +1,12 @@
+.hello{
+    padding: 2px;
+    border:  solid 10px black;
+    color:  green;
+    margin:10px;
+}
+.world{
+    padding: 2px;
+    border: solid  10px black;
+    color:  green;
+    margin:10px; 
+}

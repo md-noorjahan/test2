@@ -1,6 +1,100 @@
+body{
+   
+    background-color: grey;
+    font-size: 20px;
+    margin: 0;
+}
 h1{
     text-align: center;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+}
+h2{
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    text-decoration: underline; 
+}
+.first{
+    padding:5px;
+
+}
+
+img{
+    width:20%;
+    border-radius: 500%;
+}
+.des-parent{
+    display:flex;
+    gap: 50px;
+    justify-content:end;
+}
+.des{
+    display:flex;
+    align-items:center;
+    background-color: ivory;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+input{
+    width: 95%;
+    padding: 5px;
+    
+}
+p{
+    font-size: 20px;
+}
+textarea{
+    width: 200%;
+}
+.button{
+   text-align: center;
+   background-color: blue;
+   color: white;
+   font-size: 20px;
+   width: 50%;
+   
 }
 footer{
     text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.parent{
+    display:flex;
+   justify-content: space-evenly;
+    gap: 30px;
+    margin: 50px;
+    
+}
+.box1{
+     
+   display:flex;
+    background-color:white;
+   padding:10px;
+   border-radius: 10px;
+   
+}
+.box2{
+   
+    display:flex;
+    background-color: white;
+    padding:10px;
+    border-radius: 10px;
+}
+.box3{
+ 
+    display:flex;
+    background-color: white;
+    padding:10px;
+    border-radius: 10px;
+
+}
+.project{
+    text-align:center;
 }
